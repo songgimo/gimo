@@ -1,8 +1,19 @@
-# gimo-workdata
-freelance projects
-
 과거 팀 프리랜서 활동과 개인 프로젝트 활동을 하며 주도로 설계/개발한 프로젝트 코드 집합입니다.
 
-DiffTrader - 개인 프로젝트<br>
-KiwoomHighChart - PyQT 버전과 PHP&JS를 사용한 두 가지 버전이 업데이트 되어 있습니다.<br>
-StockApis - 프리랜서 활동 중 키움과 신한i의 OpenAPI를 이용한 프로젝트가 있었는데, 관련 함수 모듈입니다.
+## DiffTrader
+DiffTrader V1에 대한 코드가 담겨있는 폴더입니다. <br>
+DiffTrader의 로직과 GUI Widget 코드가 들어있습니다.
+
+## KiwoomHighChart
+Kiwoom API 모듈을 이용한 PER/PBR 계산 RESTful 서버 구축 프로젝트입니다.<br>
+로컬 서버에 데이터를 주기적으로 넣고 Page와 통신하여 다양한 인디케이터를 GET/PUT해주는 서버 코드가 들어있습니다.
+
+## KiwoomGridTrader
+QT GUI와 KiwoomAPI를 결합하여 만든 그리드 트레이딩 시스템입니다.<br>
+외주 프로젝트 특성상 주요한 코드는 업데이트하지 않았으며 사용된 KiwoomAPI 모듈 코드가 들어있습니다.
+
+## StockApis
+KiwoomAPI와 신한i API모듈 코드가 들어있습니다.
+
+## KiwoomHighChartQtVer
+QT GUI의 그래프 기능을 이용한 차트 GUI 코드가 들어있습니다.
